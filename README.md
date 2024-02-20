@@ -2,9 +2,6 @@
 
 # ✨ Awesome Calculator App ✨
 
-[[License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[[GitHub stars](https://img.shields.io/github/stars/Benyamin-Vala/Web-Calculator.svg?style=social)](https://github.com/Benyamin-Vala/Web-Calculator/stargazers)
-[[Twitter](https://img.shields.io/twitter/url/https/github.com/Benyamin-Vala/Web-Calculator.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20calculator%20app%20on%20GitHub%21%20%F0%9F%94%A5%20%23javascript%20%23webdev%20%23opensource)
 
 Welcome to the ✨ Awesome Calculator App! This simple yet powerful calculator is built using HTML, CSS, and JavaScript, making it accessible and easy to use directly from your web browser.
 
@@ -36,7 +33,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find this project useful, consider giving it a ⭐️ on GitHub and sharing it on social media. Your support helps to grow the community and encourage further development.
 
-[[GitHub stars](https://img.shields.io/github/stars/Benyamin-Vala/Web-Calculator.svg?style=social&label=Star)](https://github.com/Benyamin-Vala/Web-Calculator/stargazers)
-[[Twitter](https://img.shields.io/twitter/url/https/github.com/Benyamin-Vala/Web-Calculator.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20calculator%20app%20on%20GitHub%21%20%F0%9F%94%A5%20%23javascript%20%23webdev%20%23opensource)
 
 ---
