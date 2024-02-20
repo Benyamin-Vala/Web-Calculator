@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebCalculator By SeyyedBenyami Valaei</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar" class="navbar flex justify-between">
+      <h1 id="logoText" class="logo">WebCalculator By SeyyedBenyaminValaei</h1>
+      <img
+        src="./images/darkmodeIcon.svg"
+        alt="themeIcon"
+        class="icon"
+        id="darkTheme"
+      />
+    </div>
+    <div class="m-auto wrapper" id="calculator">
+      <div class="blur-effect"></div>
+      <div class="calculate-result noneGap">
+        <input id="taskInput" disabled value="" class="up-input" />
+        <input id="calculationInput" value="0" class="down-input" />
+      </div>
+      <div class="menu flex justify-between">
+        <div class="left-bar flex-column">
+          <div class="flex wrap-menu">
+            <button id="clearBtn" class="normal-top-button">
+              <span>C</span>
+            </button>
+            <button id="plusMinusBtn" class="normal-top-button">
+              <span>+/-</span>
+            </button>
+            <button id="percentageBtn" class="normal-top-button">
+              <span>%</span>
+            </button>
+          </div>
+          <div class="flex wrap-menu">
+            <button id="sevenBtn" class="normal-left-button">
+              <span>7</span>
+            </button>
+            <button id="eightBtn" class="normal-left-button">
+              <span>8</span>
+            </button>
+            <button id="nineBtn" class="normal-left-button">
+              <span>9</span>
+            </button>
+          </div>
+          <div class="flex wrap-menu">
+            <button id="fourBtn" class="normal-left-button">
+              <span>4</span>
+            </button>
+            <button id="fiveBtn" class="normal-left-button">
+              <span>5</span>
+            </button>
+            <button id="sixBtn" class="normal-left-button">
+              <span>6</span>
+            </button>
+          </div>
+          <div class="flex wrap-menu">
+            <button id="oneBtn" class="normal-left-button">
+              <span>1</span>
+            </button>
+            <button id="twoBtn" class="normal-left-button">
+              <span>2</span>
+            </button>
+            <button id="threeBtn" class="normal-left-button">
+              <span>3</span>
+            </button>
+          </div>
+          <div class="flex wrap-menu">
+            <button id="zeroBtn" class="normal-left-button end-botton">
+              <span>0</span>
+            </button>
+
+            <button id="dotBtn" class="normal-left-button">
+              <span>,</span>
+            </button>
+          </div>
+        </div>
+        <div class="right-bar flex-column">
+          <button id="divideBtn" class="normal-button">÷</button>
+          <button id="multiplicationBtn" class="normal-button">x</button>
+          <button id="minusBtn" class="normal-button">-</button>
+          <button id="totalBtn" class="normal-button">+</button>
+          <button id="equalBtn" class="normal-button">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,132 @@
+* {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  user-select: none;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+  justify-self: center;
+}
+.m-auto {
+  margin: auto;
+}
+.wrapper {
+  border-radius: 1rem;
+  width: 350px;
+  height: 650px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+}
+.icon {
+  width: 25px;
+  cursor: pointer;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.navbar {
+  margin: 10px;
+  margin-bottom: 45px;
+}
+.logo {
+  font-size: 22px;
+  color: black;
+}
+.blur-effect {
+  filter: blur(2px);
+  height: max-content;
+  background-color: transparent;
+  width: max-content;
+  z-index: 0;
+}
+
+.menu,
+.calculate-result,
+.left-bar,
+.right-bar {
+  z-index: 2;
+  background-color: transparent;
+}
+.calculate-result {
+  height: 200px;
+}
+.menu {
+  height: 450px;
+  margin: 20px;
+}
+.wrapper {
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.normal-button,
+.normal-top-button,
+.normal-left-button {
+  z-index: 1;
+  background-color: #ff6363;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  font-size: 36px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+.wrap-menu {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.left-bar > div,
+.left-bar > div > button > span {
+  background-color: transparent;
+}
+.normal-top-button {
+  background-color: white;
+  color: #ff6363;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.end-botton {
+  width: 140px;
+}
+.normal-left-button {
+  background-color: white;
+  color: black;
+}
+.calculate-result > input {
+  width: 300px;
+  height: 60px;
+  background: transparent;
+  border: 0;
+  float: right;
+  text-align: right;
+}
+.down-input {
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+.up-input {
+  font-size: 18px;
+  color: black;
+}
+.noneGap {
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 0;
+  margin: auto;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
